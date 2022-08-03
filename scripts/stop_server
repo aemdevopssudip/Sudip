@@ -1,5 +1,0 @@
-#!/bin/bash
-isExistApp = `prep httpd`
-if [[ -n $isExistApp ]]; then 
-    service httpd stop
-fi
